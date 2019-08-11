@@ -1,0 +1,137 @@
+
+@font-face{
+    font-family: 'Segoe wp';
+    src: url(../fonts/segoe_wp.ttf);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe wp'
+}
+
+header{
+    background-color: #ffffff;
+    color: #6c6c6c;
+    height: 90px;
+    font-size: 20pt;
+    width: 100%;
+}
+
+.logo{
+    color: black;
+    float: left;
+    font-size: 42pt;
+    margin-left: 11%;
+    margin-top: 25px;
+}
+
+#menu{
+    margin-left: 30%;
+    margin-top: 70px;
+    float: left;
+    color: #6c6c6c;
+}
+
+#menu a{
+    margin-left: 40px;
+    padding-bottom: 13px;
+    text-decoration: none;
+    transition: 1s;
+}
+
+#menu a:hover{
+    color: #5094f2;
+}
+
+.selected{
+    border-bottom: #5094f2 solid 2px;
+}
+
+.banner {
+    margin-top: 30px;
+}
+
+.banner img{
+    width: 100%;
+    position: relative;
+    z-index: -1;
+}
+
+.banner-text{
+    margin-left: 50%;
+    margin-top: 200px;
+    color: white;
+    position: absolute;
+    font-size: 20pt;
+}
+
+.banner-text p{
+    font-size: 18pt;
+}
+
+.icons{
+    height: 300px;
+}
+
+.icons{
+    float: none;
+}
+
+.icon{
+    width: 270px;
+    margin-left: 11%;
+    margin-top: 70px;
+    float: left;
+    text-align: center;
+    color: #5094f2;
+}
+
+.icon p{
+    color: #9f9f9f;
+}
+
+.shoping-cart{
+    margin-left: 12%;
+    margin-top: 100px;
+    color: #9f9f9f;
+    width: 1200px;
+    height: 400px;
+}
+
+.shoping-cart-icon{
+    width: 360px;
+    text-align: center;
+    float: left;
+}
+
+.shoping-cart-icon img{
+    margin-top: 40px;
+}
+
+.shoping-cart-text{
+    margin-top: 70px;
+    width: 500px;
+    margin-left: 40%;
+    padding-top: 50px;
+}
+
+.shoping-cart-text h2{
+    font-size: 20pt;
+}
+
+.shoping-cart-text p{
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+footer{
+    border-top: 1px solid #e5e5e5;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+}
+
+footer p{
+    margin-top: 25px;
+}
