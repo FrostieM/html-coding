@@ -1,0 +1,39 @@
+@font-face{
+    font-family: 'Segoe wp';
+    src: url(../fonts/segoe_wp.ttf);
+}
+
+*{
+    font-family: 'Segoe wp', sans-serif;
+}
+
+header{
+    font-size: 18pt;
+}
+
+main, footer, header a, figcaption{
+    color: #6c6c6c;
+}
+
+.logo{
+    font-size: 34pt;
+    color: black;
+    text-align: center;
+}
+
+.logo:hover{
+    color: black;
+}
+
+nav .active{
+    border-bottom: #5094f2 solid 2px;
+}
+
+.banner{
+    height: 600px;
+}
+
+.banner div{
+    padding-left: 50%;
+    padding-top: 200px;
+}
