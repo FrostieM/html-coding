@@ -1,0 +1,138 @@
+@import "media.css";
+
+@font-face{
+    font-family: 'Segoe wp';
+    src: url(../fonts/segoe_wp.ttf);
+}
+
+*{
+    font-family: 'Segoe wp', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.grid{
+    display: grid;
+    grid-template: 100px 1fr 1fr 100px / repeat(12, 1fr);
+    grid-template-areas:
+        ". h h h h h h h h h h ."
+        "b b b b b b b b b b b b"
+        ". m m m m m m m m m m ."
+        "f f f f f f f f f f f f";
+    color: #6c6c6c;
+}
+
+.grid header{
+    grid-area: h;
+}
+
+.grid main{
+    grid-area: m;
+    display: grid;
+    grid-template: repeat(2, 1fr) / 1fr;
+    grid-row-gap: 100px;
+}
+
+.grid footer{
+    grid-area: f;
+    display: grid;
+    border-top: 1px solid gray;
+    align-content: center;
+    justify-content: center;
+}
+
+.menu{
+    display: grid;
+    grid-template: 1fr / 200px 1fr;
+    margin-top: 20px;
+    font-size: 20pt;
+}
+
+.logo{
+    display: grid;
+    grid-template: 1fr / 1fr 2fr;
+    align-items: center;
+    color: black;
+}
+
+.links{
+    justify-self: end;
+    align-self: end;
+    color: #6c6c6c;
+}
+
+.links a{
+    margin-right: 30px;
+    padding-bottom: 20px;
+}
+
+nav a{
+    text-decoration: none;
+    transition: 1s;
+}
+
+nav a:hover{
+    color: #5094f2;
+}
+
+.selected{
+    border-bottom: 3px solid #5094f2;
+}
+
+.banner{
+    grid-area: b;
+    display: grid;
+    grid-template: 1fr / 1fr 1fr
+}
+
+.banner img{
+    width: 100%;
+    grid-column: 1 / 3;
+}
+
+.banner-content{
+    position: absolute;
+    color: white;
+    margin-left: 50%;
+    margin-top: 200px;
+    font-size: 20pt;
+}
+
+.banner-content h2, .banner-content img{
+    margin-top: 20px;
+    font-size: 22pt;
+}
+
+.icons{
+    display: grid;
+    grid-template: 1fr / repeat(3, 1fr);
+    justify-items: center;
+    text-align: center;
+}
+
+.icon-text h2{
+    margin-top: 20px;
+    color: #5094f2;
+}
+
+.content{
+    display: grid;
+    grid-template: 1fr / 1fr 2fr;
+}
+
+.content figure{
+    display: grid;
+    grid-template: 80px 1fr / 1fr;
+    justify-items: center;
+}
+
+.content-text {
+    font-size: 12pt;
+    margin-top: 40px;
+}
+
+.content-text p{
+    margin-top: 10px;
+}
+
+
