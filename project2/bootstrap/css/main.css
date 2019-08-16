@@ -1,0 +1,86 @@
+@font-face{
+    font-family: 'Asap regular';
+    src: url(../fonts/Asap-Regular.otf);
+}
+
+@font-face{
+    font-family: 'Asap medium';
+    src: url(../fonts/Asap-Medium.otf);
+}
+
+@font-face{
+    font-family: 'Asap bold';
+    src: url(../fonts/Asap-Bold.otf);
+}
+
+.container{
+    font-size: 18pt;
+    font-family: 'Asap regular', sans-serif;
+}
+
+.header-text{
+    font-family: 'Asap medium', sans-serif;
+}
+
+.header-text h1{
+    font-size: 80pt;
+}
+
+.btn{
+    font-family: 'Asap bold', sans-serif;
+    font-size: 20pt;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 0;
+}
+
+nav .active{
+    text-transform: capitalize;
+    border-bottom: 2px solid black;
+}
+
+.title{
+    font-family: 'Asap bold', sans-serif;
+    font-size: 42pt;
+}
+
+.emphasize{
+    border-top: 3px solid gray;
+}
+
+.services, .portfolio, .numbers{
+    background-color: #f6f6f6;
+}
+
+.portfolio a img:hover{
+    box-shadow: 0 0 40px gray;
+}
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border: 1px solid black;
+    text-indent: 0;
+    background-color: white;
+}
+.carousel-indicators .active {
+    border: none;
+    background-color: black;
+    height: 12px;
+    width: 12px;
+}
+
+.contact{
+    background-image: url(../img/contact_bg.png);
+    margin-top: 120px;
+}
+
+footer{
+    border-top: 1px solid white;
+}
+
+@media screen and (max-width: 1200px){
+    .header-text h1{
+        font-size: 60pt;
+    }
+}
